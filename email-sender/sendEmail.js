@@ -4,15 +4,15 @@ const nodemailer = require("nodemailer");
 let transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "jacobndiaye0113@gmail.com", // Remplacez par votre adresse email
-    pass: "mumari1398", // Remplacez par votre mot de passe
+    user: "", // Remplacez par votre adresse email
+    pass: "", // Remplacez par votre mot de passe
   },
 });
 
 // Définir les options de l'email
 let mailOptions = {
-  from: "jacobndiaye0113@gmail.com", // Remplacez par votre adresse email
-  to: "jacobndiapalyndiaye@gmail.com", // Remplacez par l'adresse email du destinataire
+  from: "", // Remplacez par votre adresse email
+  to: "", // Remplacez par l'adresse email du destinataire
   subject: "Test Email",
   text: "Hello from Node.js using Nodemailer!",
 };
